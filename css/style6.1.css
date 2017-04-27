@@ -1,0 +1,541 @@
+@charset "UTF-8";
+/* line 9, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.wrapper {
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1390px) {
+  /* line 9, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .wrapper {
+    width: 1390px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 9, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .wrapper {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 9, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .wrapper {
+    width: 720px;
+  }
+}
+
+/* line 23, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about, .why_organic, .traditional, .our_food, .why_organic, .traditional, .meat, .tea, .menu, .menu p, .menu div, .reservations, .contacts, .reservations, .tea {
+  font-family: verdana;
+  font-size: 28px;
+}
+
+/* line 28, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+h1, h2, .join_text, .our_food {
+  font-family: calibri light;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+/* line 34, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about, .why_organic, .traditional, .our_food {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 245px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 34, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about, .why_organic, .traditional, .our_food {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 34, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about, .why_organic, .traditional, .our_food {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+}
+
+/* line 49, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about img, .why_organic img, .traditional img, .our_food img {
+  width: 50%;
+}
+
+/* line 58, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.our_food {
+  margin-bottom: 215px;
+  background-image: url(../content/our_food.jpg);
+  justify-content: flex-end;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 58, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .our_food {
+    background-size: contain;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 58, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .our_food {
+    background-size: contain;
+    margin-bottom: 75px;
+  }
+}
+
+/* line 70, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.our_food div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 275px 0px 275px 0px;
+  line-height: 50px;
+  width: 40%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 70, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .our_food div {
+    margin: 170px 0px 170px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 70, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .our_food div {
+    margin: 82px 0px 82px 0px;
+  }
+}
+
+/* line 87, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about_text, .organic_text, .traditional_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 92, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about_text h2, .about_text .join_text, .organic_text h2, .organic_text .join_text, .traditional_text h2, .traditional_text .join_text {
+  margin: 0px auto 0px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 92, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about_text h2, .about_text .join_text, .organic_text h2, .organic_text .join_text, .traditional_text h2, .traditional_text .join_text {
+    margin: 40px auto 0px;
+  }
+}
+
+/* line 98, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about_text p, .organic_text p, .traditional_text p {
+  margin: 105px 82px 0px 82px;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 98, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about_text p, .organic_text p, .traditional_text p {
+    margin: 50px 40px 0px 40px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 98, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about_text p, .organic_text p, .traditional_text p {
+    margin: 40px 82px 0px 82px;
+    width: 50%;
+  }
+}
+
+/* line 109, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.about_text .sign, .organic_text .sign, .traditional_text .sign {
+  margin: 30px 30px 0px 82px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 109, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about_text .sign, .organic_text .sign, .traditional_text .sign {
+    margin: 30px 30px 0px 40px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 109, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .about_text .sign, .organic_text .sign, .traditional_text .sign {
+    margin: 30px 30px 0px 40px;
+    width: 50%;
+  }
+}
+
+/* line 121, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.meat, .tea {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../content/meat.jpg);
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 121, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat, .tea {
+    background-size: 100% 100%;
+    margin: 40px 0px 75px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 121, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat, .tea {
+    background-size: 100% 100%;
+    margin: 40px 0px 75px 0px;
+  }
+}
+
+/* line 134, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.meat .meat_text, .tea .meat_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 70px;
+  padding: 110px 82px 100px 82px;
+  line-height: 40px;
+  width: 28%;
+  background: rgba(97, 95, 94, 0.7);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 134, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat .meat_text, .tea .meat_text {
+    padding: 40px 20px 40px 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 134, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat .meat_text, .tea .meat_text {
+    padding: 40px 20px 40px 20px;
+    width: 70%;
+  }
+}
+
+/* line 152, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.meat .meat_text h2, .tea .meat_text h2, .meat .meat_text .join_text, .tea .meat_text .join_text {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 157, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.meat .meat_text p, .tea .meat_text p {
+  font-family: verdana;
+  font-size: 28px;
+  color: white;
+  margin: 105px 0px 0px 0px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 157, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat .meat_text p, .tea .meat_text p {
+    margin: 50px 0px 0px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 157, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .meat .meat_text p, .tea .meat_text p {
+    margin: 50px 0px 0px 0px;
+  }
+}
+
+/* line 172, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu, .menu p, .menu div, .reservations, .contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* line 177, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu h2, .reservations h2, .contacts h2, .menu .join_text, .reservations .join_text, .contacts .join_text {
+  margin-bottom: 50px;
+}
+
+/* line 180, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu p, .reservations p, .contacts p {
+  margin: 0px 0px 50px 0px;
+  line-height: 45px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 180, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .menu p, .reservations p, .contacts p {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 180, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .menu p, .reservations p, .contacts p {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+/* line 191, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu hr, .reservations hr, .contacts hr {
+  width: 14.4%;
+  margin-bottom: 50px;
+}
+
+/* line 197, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu div p, .reservations div p, .contacts div p {
+  width: 78%;
+  text-align: center;
+}
+
+/* line 201, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.menu div span, .reservations div span, .contacts div span {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+/* line 208, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.table {
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 208, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .table {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 208, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .table {
+    margin-bottom: 100px;
+  }
+}
+
+/* line 216, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.table img {
+  width: 100%;
+}
+
+/* line 221, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.reservations {
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 221, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .reservations {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 221, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .reservations {
+    margin-bottom: 100px;
+  }
+}
+
+/* line 230, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.reservations h2, .reservations .join_text {
+  margin: 0px 0px 45px 0px;
+}
+
+/* line 233, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.reservations p {
+  margin: 0px 0px 80px 0px;
+}
+
+/* line 236, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.reservations button {
+  border: black 8px solid;
+  font-family: calibri light;
+  font-size: 42px;
+  background: white;
+  text-transform: uppercase;
+  padding: 35px 65px 35px 65px;
+}
+
+/* line 245, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 248, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+link {
+  cursor: pointer;
+}
+
+/* line 252, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.tea {
+  background-image: url(../content/tea_bag.jpg);
+}
+
+/* line 255, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.tea .tea_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+  margin: 90px 67px 90px 67px;
+  padding: 115px 88px 140px 92px;
+  line-height: 40px;
+  width: 29%;
+  background: rgba(26, 26, 26, 0.7);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 255, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .tea .tea_text {
+    padding: 40px 20px 40px 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 255, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .tea .tea_text {
+    padding: 40px 20px 40px 20px;
+    width: 70%;
+  }
+}
+
+/* line 273, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.tea .tea_text h2, .tea .tea_text .join_text {
+  color: white;
+  margin: 0;
+  text-align: center;
+}
+
+/* line 278, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.tea .tea_text p {
+  font-family: verdana;
+  font-size: 28px;
+  color: white;
+  margin: 105px 0px 0px 0px;
+}
+
+/* line 289, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.contacts p, .contacts hr {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 289, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .contacts p, .contacts hr {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 289, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .contacts p, .contacts hr {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 300, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.join_text {
+  width: 71%;
+  text-align: center;
+}
+
+/* line 306, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.subscribe {
+  width: 880px;
+  height: 125px;
+  border: 9px black solid;
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 306, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .subscribe {
+    width: 880px;
+    height: 125px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 306, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .subscribe {
+    width: 750px;
+    height: 100px;
+    margin-bottom: 75px;
+  }
+}
+
+/* line 321, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.subscribe input[type="text"] {
+  width: 70%;
+  height: 100%;
+  border: 0;
+  padding: 0px 0px 0px 34px;
+  font-size: 28px;
+  color: black;
+}
+
+/* line 329, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+.subscribe input[value="Subscribe"] {
+  width: 25%;
+  font-family: verdana;
+  font-size: 28px;
+  background: white;
+  padding: 20px 0px 20px 0px;
+  border: 0;
+  border-left: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 329, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  .subscribe input[value="Subscribe"] {
+    width: 24%;
+  }
+}
+
+/* line 345, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+footer {
+  width: 100%;
+  background: black;
+  text-align: center;
+  font-family: verdana;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 85px 0px 85px 0px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 345, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  footer {
+    padding: 55px 0px 55px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 345, C:/Users/konoplya/Desktop/курсы/задание №6/sass/style6.1.scss */
+  footer {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+/*# sourceMappingURL=../css/style6.1.map */

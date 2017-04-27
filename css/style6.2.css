@@ -1,0 +1,987 @@
+@charset "UTF-8";
+@font-face {
+  font-family: OpenSans Light;
+  src: url("../fonts/OpenSans-Light.ttf ");
+}
+
+/* line 15, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.wrapper {
+  /*@media screen and (max-width: 320px){
+    width:320px;
+  }*/
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1390px) {
+  /* line 15, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .wrapper {
+    width: 1390px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 15, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .wrapper {
+    width: 1024px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 15, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .wrapper {
+    width: 720px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 15, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .wrapper {
+    width: 320px;
+  }
+}
+
+/* line 34, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about, .traditional, .why_organic, .why_organic, .traditional, .meat, .menu, .reservations, .reservations, .tea {
+  font-family: OpenSans Light, sans-serif;
+  font-size: 28px;
+}
+
+/* line 39, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+h1, h2, .contacts .join_text, .our_food {
+  font-family: OpenSans Light, sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+/* line 45, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.our_food {
+  background: url(../content/our_food.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 45, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 45, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food {
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 45, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 62, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.our_food div {
+  padding: 275px 76px 275px 164px;
+  box-sizing: border-box;
+  float: right;
+  line-height: 50px;
+  width: 50%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 62, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food div {
+    padding: 170px 0px 170px 0px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 62, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food div {
+    padding: 82px 0px 82px 0px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 62, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .our_food div {
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+    font-size: 24px;
+    margin-bottom: 50px;
+  }
+}
+
+/* line 85, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about, .traditional, .why_organic {
+  overflow: hidden;
+  margin-bottom: 245px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 85, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about, .traditional, .why_organic {
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 85, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about, .traditional, .why_organic {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 85, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about, .traditional, .why_organic {
+    margin-bottom: 40px;
+  }
+}
+
+/* line 98, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about img, .traditional img, .why_organic img {
+  width: 50%;
+  display: inline-block;
+  /*float: left;*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 98, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about img, .traditional img, .why_organic img {
+    display: block;
+    margin: 0 auto 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 98, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about img, .traditional img, .why_organic img {
+    display: block;
+    margin: 0 auto 0;
+    width: 100%;
+  }
+}
+
+/* line 112, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about_text, .traditional_text, .why_organic_text {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 218px 90px 275px 90px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 112, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text, .traditional_text, .why_organic_text {
+    padding: 20px 90px 60px 90px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 112, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text, .traditional_text, .why_organic_text {
+    float: none;
+    margin: 50px auto 50px;
+    width: 90%;
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 112, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text, .traditional_text, .why_organic_text {
+    float: none;
+    margin: 30px auto 30px;
+    width: 90%;
+    padding: 0;
+  }
+}
+
+/* line 133, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about_text h2, .traditional_text h2, .why_organic_text h2, .about_text .contacts .join_text, .contacts .about_text .join_text, .traditional_text .contacts .join_text, .contacts .traditional_text .join_text, .why_organic_text .contacts .join_text, .contacts .why_organic_text .join_text {
+  margin: 0px auto 0px;
+  text-align: center;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 133, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text h2, .traditional_text h2, .why_organic_text h2, .about_text .contacts .join_text, .contacts .about_text .join_text, .traditional_text .contacts .join_text, .contacts .traditional_text .join_text, .why_organic_text .contacts .join_text, .contacts .why_organic_text .join_text {
+    margin: 40px auto 0px;
+  }
+}
+
+/* line 140, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about_text p, .traditional_text p, .why_organic_text p {
+  margin-top: 105px;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 140, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text p, .traditional_text p, .why_organic_text p {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 140, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text p, .traditional_text p, .why_organic_text p {
+    margin-top: 40px;
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 140, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .about_text p, .traditional_text p, .why_organic_text p {
+    margin-top: 30px;
+    width: 90%;
+  }
+}
+
+/* line 155, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.about_text .sign, .traditional_text .sign, .why_organic_text .sign {
+  margin: 30px 30px 0 0;
+}
+
+/* line 168, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.why_organic {
+  /*img{
+    float:right;
+  }*/
+}
+
+/* line 173, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.why_organic_text {
+  float: left;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 173, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .why_organic_text {
+    display: block;
+    float: none;
+    margin: 50px auto 50px;
+    width: 90%;
+    padding: 0;
+  }
+}
+
+/* line 186, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.meat {
+  background: url(../content/meat.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  /*width:100%;*/
+  margin-bottom: 215px;
+  /*background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width:100%;
+  margin-bottom: 215px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    background-size: cover;
+  }*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 186, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .meat {
+    background-repeat: repeat-y;
+    margin-bottom: 75px;
+  }
+}
+
+/* line 209, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.meat_text {
+  font-size: 28px;
+  font-family: "OpenSans Light", sans-serif;
+  color: white;
+  float: right;
+  margin: 70px;
+  padding: 110px 82px 100px 82px;
+  line-height: 40px;
+  width: 28%;
+  background: rgba(97, 95, 94, 0.7);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 209, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .meat_text {
+    padding: 40px 20px 40px 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 209, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .meat_text {
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 209, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .meat_text {
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+    font-size: 24px;
+    margin: 50px auto 50px;
+    float: none;
+  }
+}
+
+/* line 238, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu, .reservations {
+  text-align: center;
+}
+
+/* line 240, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu h2, .reservations h2, .menu .contacts .join_text, .contacts .menu .join_text, .reservations .contacts .join_text, .contacts .reservations .join_text {
+  margin-bottom: 50px;
+}
+
+/* line 243, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu p, .reservations p {
+  margin: 0px 0px 50px 0px;
+  /*@extend .menu;*/
+  line-height: 45px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 243, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .menu p, .reservations p {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 243, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .menu p, .reservations p {
+    margin: 0px 0px 30px 0px;
+  }
+}
+
+/* line 254, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu hr, .reservations hr {
+  width: 14.4%;
+  margin-bottom: 50px;
+}
+
+/* line 258, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu div, .reservations div {
+  /*@extend .menu;*/
+}
+
+/* line 260, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu div p, .reservations div p {
+  width: 78%;
+  text-align: center;
+  margin: 0 auto 30px;
+}
+
+/* line 265, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.menu div span, .reservations div span {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+
+/* line 273, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.table img {
+  width: 100%;
+}
+
+/* line 278, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.reservations {
+  margin-top: 50px;
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1390px) {
+  /* line 278, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .reservations {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 278, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .reservations {
+    margin-bottom: 50px;
+  }
+}
+
+/* line 288, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.reservations h2, .reservations .contacts .join_text, .contacts .reservations .join_text {
+  margin: 0px 0px 45px 0px;
+}
+
+/* line 291, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.reservations p {
+  margin: 0px 0px 80px 0px;
+}
+
+/* line 294, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.reservations button {
+  border: black 8px solid;
+  font-family: OpenSans Light, sans-serif;
+  font-size: 42px;
+  background: white;
+  text-transform: uppercase;
+  padding: 35px 65px 35px 65px;
+}
+
+/* line 303, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+button {
+  cursor: pointer;
+}
+
+/* line 306, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+link {
+  cursor: pointer;
+}
+
+/* line 310, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.tea {
+  /*@extend .meat;*/
+  background: url(../content/tea_bag.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  /*width:100%;*/
+  margin-bottom: 215px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 310, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .tea {
+    background-repeat: repeat-y;
+    margin-bottom: 75px;
+  }
+}
+
+/* line 322, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.tea_text {
+  font-size: 28px;
+  font-family: "OpenSans Light", sans-serif;
+  color: white;
+  float: right;
+  margin: 90px 67px 90px 67px;
+  padding: 115px 88px 140px 92px;
+  line-height: 40px;
+  width: 29%;
+  background: rgba(26, 26, 26, 0.7);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 322, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .tea_text {
+    padding: 40px 20px 40px 20px;
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 322, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .tea_text {
+    padding: 40px 20px 40px 20px;
+    margin: 15px 67px 15px 67px;
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 322, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .tea_text {
+    padding: 10px 10px 10px 10px;
+    width: 90%;
+    font-size: 24px;
+    margin: 50px auto 50px;
+    float: none;
+  }
+}
+
+/* line 350, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.contacts {
+  text-align: center;
+  font-family: OpenSans Light, sans-serif;
+  font-size: 28px;
+}
+
+/* line 354, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.contacts p, .contacts hr {
+  margin-bottom: 45px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 354, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .contacts p, .contacts hr {
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 354, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .contacts p, .contacts hr {
+    margin-bottom: 30px;
+  }
+}
+
+/* line 363, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.contacts hr {
+  width: 14.4%;
+}
+
+/* line 366, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.contacts .join_text {
+  width: 71%;
+  text-align: center;
+  margin: 42px auto 45px;
+}
+
+/* line 374, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.subscribe {
+  margin: 0 auto 215px;
+  width: 880px;
+  height: 125px;
+  border: 9px black solid;
+  /*margin-bottom: 215px;*/
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 374, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .subscribe {
+    width: 880px;
+    height: 125px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 374, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .subscribe {
+    width: 750px;
+    height: 100px;
+    margin-bottom: 75px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 374, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .subscribe {
+    width: 320px;
+    height: 46px;
+    margin-bottom: 40px;
+  }
+}
+
+/* line 396, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.subscribe input[type="text"] {
+  width: 70%;
+  display: block;
+  height: 100%;
+  border: 0;
+  padding: 0px 0px 0px 34px;
+  font-size: 28px;
+  color: black;
+  float: left;
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px) {
+  /* line 396, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .subscribe input[type="text"] {
+    padding: 0;
+  }
+}
+
+/* line 409, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+.subscribe input[value="Subscribe"] {
+  width: 25%;
+  height: 80%;
+  font-family: OpenSans Light, sans-serif;
+  font-size: 28px;
+  background: white;
+  padding: 20px 0px 20px 0px;
+  border: 0;
+  border-left: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+  float: right;
+  display: block;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  /* line 409, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  .subscribe input[value="Subscribe"] {
+    width: 24%;
+  }
+}
+
+/* line 428, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+footer {
+  width: 100%;
+  background: black;
+  text-align: center;
+  font-family: OpenSans Light, sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 85px 0px 85px 0px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1390px) {
+  /* line 428, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  footer {
+    padding: 55px 0px 55px 0px;
+  }
+}
+
+@media screen and (min-width: 720px) and (max-width: 1024px) {
+  /* line 428, C:/Users/konoplya/Desktop/курсы/задание №6.float/sass/style6.2.scss */
+  footer {
+    padding: 30px 0px 30px 0px;
+  }
+}
+
+/*
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 245px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    margin-bottom: 0px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+  }
+
+  img {
+    width: $image-width;
+  }
+}
+
+.why_organic,.traditional,.our_food{
+  @extend .about;
+}
+
+.our_food{
+  margin-bottom: 215px;
+  background-image: url(../content/our_food.jpg);
+  justify-content: flex-end;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    background-size: contain;
+    margin-bottom: 75px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px){
+    background-size: contain;
+    margin-bottom: 75px;
+  }
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 275px 0px 275px 0px;
+    line-height: 50px;
+    width:40%;
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      margin: 170px 0px 170px 0px;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px){
+      margin: 82px 0px 82px 0px;
+    }
+  }
+}
+
+.about_text,.organic_text,.traditional_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2{
+    margin:0px auto 0px;
+    @media screen and (min-width: 720px) and (max-width: 1024px){
+      margin:40px auto 0px;
+    }
+  }
+  p{
+    margin:105px 82px 0px 82px;
+    line-height: 40px;
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      margin:50px 40px 0px 40px;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px){
+      margin:40px 82px 0px 82px;
+      width:50%;
+    }
+  }
+  .sign{
+    margin: 30px 30px 0px 82px;
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      margin: 30px 30px 0px 40px;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px){
+      margin: 30px 30px 0px 40px;
+      width:50%;
+    }
+  }
+}
+
+.meat{
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(../content/meat.jpg);
+  margin-bottom: 215px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    background-size: 100% 100%;
+    margin:40px 0px 75px 0px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px){
+    background-size: 100% 100%;
+    margin:40px 0px 75px 0px;
+  }
+  .meat_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 70px;
+    padding: 110px 82px 100px 82px;
+    line-height: 40px;
+    width:28%;
+    background: rgba(97,95,94,0.7);
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      padding: 40px 20px 40px 20px;
+      width:50%;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px) {
+      padding: 40px 20px 40px 20px;
+      width:70%;
+    }
+    h2 {
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    p {
+      font-family: $font-family;
+      font-size: $block-font-size;
+      color: white;
+      margin: 105px 0px 0px 0px;
+      @media screen and (min-width: 1024px) and (max-width: 1390px) {
+        margin: 50px 0px 0px 0px;
+      }
+      @media screen and (min-width: 720px) and (max-width: 1024px) {
+        margin: 50px 0px 0px 0px;
+      }
+    }
+  }
+}
+
+.menu{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  h2{
+    margin-bottom: 50px;
+  }
+  p{
+    margin: 0px 0px 50px 0px;
+    @extend .menu;
+    line-height: 45px;
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      margin: 0px 0px 30px 0px;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px) {
+      margin: 0px 0px 30px 0px;
+    }
+  }
+  hr{
+    width: 14.4%;
+    margin-bottom: 50px;
+  }
+  div{
+    @extend .menu;
+    p{
+      width: 78%;
+      text-align: center;
+    }
+    span{
+      display: inline-block;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+.table{
+  margin-bottom: 215px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    margin-bottom: 100px;
+  }
+  img{
+    width: 100%;
+  }
+}
+
+.reservations{
+  @extend .menu;
+  margin-bottom: 215px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    margin-bottom: 100px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    margin-bottom: 100px;
+  }
+  h2{
+    margin: 0px 0px 45px 0px;
+    }
+  p{
+    margin: 0px 0px 80px 0px;
+  }
+  button{
+    border: black 8px solid;
+    font-family: $font-family;
+    font-size: $headers-font-size;
+    background: white;
+    text-transform: $text-register;
+    padding: 35px 65px 35px 65px;
+  }
+}
+button{
+  cursor: pointer;
+}
+link{
+  cursor: pointer;
+}
+
+.tea{
+  @extend .meat;
+  background-image: url(../content/tea_bag.jpg);
+  .tea_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 90px 67px 90px 67px;
+    padding: 115px 88px 140px 92px;
+    line-height: 40px;
+    width: 29%;
+    background: rgba(26,26,26,0.7);
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      padding: 40px 20px 40px 20px;
+      width:50%;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px) {
+      padding: 40px 20px 40px 20px;
+      width:70%;
+    }
+    h2 {
+      color: white;
+      margin: 0;
+      text-align: center;
+    }
+    p {
+      font-family: $font-family;
+      font-size: $block-font-size;
+      color: white;
+      margin: 105px 0px 0px 0px;
+    }
+  }
+}
+
+.contacts{
+  @extend .menu;
+  p,hr{
+    margin-bottom: 45px;
+    @media screen and (min-width: 1024px) and (max-width: 1390px) {
+      margin-bottom: 30px;
+    }
+    @media screen and (min-width: 720px) and (max-width: 1024px) {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.join_text{
+  @extend h2;
+  width: 71%;
+  text-align: center;
+}
+
+.subscribe{
+  width:880px;
+  height:125px;
+  border: 9px black solid;
+  margin-bottom: 215px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    width:880px;
+    height:125px;
+    margin-bottom: 75px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    width:750px;
+    height:100px;
+    margin-bottom: 75px;
+  }
+  input[type="text"]{
+    width: 70%;
+    height: 100%;
+    border: 0;
+    padding: 0px 0px 0px 34px;
+    font-size: $block-font-size;
+    color:black;
+  }
+  input[value="Subscribe"]{
+    width: 25%;
+    font-family: $font-family;
+    font-size: $block-font-size;
+    background: white;
+    padding: 20px 0px 20px 0px;
+    border: 0;
+    border-left: 1px black solid;
+    text-align: center;
+    cursor: pointer;
+    @media screen and (min-width: 720px) and (max-width: 1024px) {
+      width: 24%;
+    }
+  }
+}
+
+footer{
+  width: 100%;
+  background: black;
+  text-align: center;
+  font-family: $font-family;
+  font-size: $block-font-size;
+  color: #ffffff;
+  padding:85px 0px 85px 0px;
+  @media screen and (min-width: 1024px) and (max-width: 1390px) {
+    padding:55px 0px 55px 0px;
+  }
+  @media screen and (min-width: 720px) and (max-width: 1024px) {
+    padding:30px 0px 30px 0px;
+  }
+}*/
+
+/*# sourceMappingURL=../css/style6.2.map */
